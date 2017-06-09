@@ -28,7 +28,7 @@ namespace ZbwsjdSupervise.Controllers
             CookieContainer ccn= new CookieContainer();
             ccn.Add(cc[0]);
 
-            CookieCollection ccn2 = HTMLHelper.GetCookieByPost("http://xxpt.wsjd.gov.cn/nhisportal/login.do", "loginName=371915&password=151729abc&checkcode=74838", ccn, header);
+            CookieCollection ccn2 = HTMLHelper.GetCookieByPost("http://xxpt.wsjd.gov.cn/nhisportal/login.do", "loginName=375&password=159abc&checkcode=74838", ccn, header);
             ViewBag.html = ccn2[0];
 
 
